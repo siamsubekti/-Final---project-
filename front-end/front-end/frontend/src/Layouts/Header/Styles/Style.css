@@ -1,0 +1,27 @@
+.header{
+    border-radius: 1px;
+    border: black;
+}
+
+.head-card{
+    min-height: 70px;
+    margin-right: -10px;
+    background-color: #f69314;
+}
+
+.button{
+    border-color: white;
+    background-color: white;
+    color: #f69314;
+    font-family: Roboto;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 90%;
+    width: 100px;
+}
+
+.href{
+    color: #f69314;
+    font-family: Roboto;
+    font-size: 20px;
+}

@@ -1,0 +1,42 @@
+.form-order{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*.form-group{*/
+/*    margin-left: 10px;*/
+/*    margin-right: 500px;*/
+/*}*/
+.btn-search{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.app{
+    display: flex;
+}
+.form-menu{
+    width: 100%;
+}
+.btn-modal{
+    margin: 40px;
+}
+.btn-save{
+    margin: 40px;
+}
+.col mr-0 {
+    display:inline-block;
+}
+.form-inline{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.modal-header{
+    background-color: #F69314;
+    color : white;
+}
+.btn-counter{
+    display: flex;
+    flex-direction: column;
+}
+.no-image{
+    border: none;
+}

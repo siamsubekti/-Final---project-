@@ -1,0 +1,154 @@
+Epic Story Final Project
+
+Golden Expedition and Dropshiping is a company engaged in expedition and dropshiping that covers various cities and provinces, looking at problems that occur in several countries for office workers, who do not have time to collect goods. We as an expedition and dropshiping service provide posts closest to make it easier and can be reached from where the recipient (worker) lives.
+conditions:
+1. Before sending to the GED post, the sender can input transaction data, namely the sender's name, the sender's address, the recipient's name, the recipient's address and the item's name in the GED application.
+2. after the data is input the sender gets the qr code.
+3. The sender comes to the post and the officer will scan the QR code to generate the data that has been input by the sender.
+4. The postal operator then weighs the weight of the package to be sent and inputted into the website and then the total price to be paid by the sender and after payment of the item is ready to be sent by the courier.
+5. The courier delivers to the recipient's address.
+6. When the courier delivers the goods, the sender and receiver can see who the courier is, the status of the goods and the time.
+7. The courier will put the item to the nearest storage if the recipient is not at home when the courier delivers the item, if the item is not taken within 1 month and the recipient cannot be contacted it will be returned to the sender.
+8. the recipient of the goods can chat with the nearest post guard to ask for information about the post can also be done if the recipient does not have the application will be notified of a link via email to find out the traking info of the goods
+9. Recipient gets access to the location of the purpose of the destination post if the recipient does not know the postal address
+10. Postal guards look for recipient goods by scanning the recipient's QR code by adjusting the item code and postal address that matches the scanned data. QR Code
+
+
+=======User Stories=======
+WEB:
+as an admin / owner of the application
+ I can manage all the data contained in the application,
+ I can login to the application (with Security Auth).
+
+as a postal operator
+ I can login to the application (with Security Auth),
+ I can do maintenance data shipping goods (CRUD),
+ I can input the data weight of the goods and the distance to the website
+ 
+as a sender 
+ I can find out the shipping costs,
+ I can find out information about who the courier is, the status of goods and the time of traking the goods,
+ I can access the register menu so that I can login to the application
+ I can login to the application
+
+As a recipient 
+ I can use the register feature so I can have an account to login to the web application
+ I can log in to be able to enter the application
+ I can access the feature to view goods traking
+ I can get access to the nearest storage location
+
+MOBILE:
+
+as a sender 
+ I can find out information about who the courier is, the status of the goods and the time of traking the goods through the mobile application,
+ I can access the register menu so that I can log in to the mobile application,
+ I can find out the shipping costs through the mobile application,
+ I can find out information about who the courier is, the status of the goods and the time of traking the goods via mobile
+
+
+as a courier 
+ I can update the delivery status,
+ I can chat with the storage operator if I cannot deliver the goods,
+ I can log in to the application
+
+As a recipient 
+ I can use the register feature so I can have an account to login to the mobile application,
+ I can use the mobile chat feature to use it to chat with POS guards,
+ I can get access to the closest storage location to easily access the POS location
+
+as a storage operator 
+ I can log into the application,
+ I can scan the QR code to be able to adjust the data items owned by the recipient,
+ I can use the chat with the recipient feature so that the recipient can ask for information about the shipment,
+ I can update the shipping status by scanning the QR code
+
+
+What we have done :
+Frontend 
+1. Design template landing page
+2. Design template admin page
+3. Form users
+4. Form transactions
+5. Fetching data users
+
+Backend
+1. users :
+   - create ( with validate name and email is already exist cannot create )
+  - get all
+  - find id user
+  - delete user
+2. roles :
+  - create
+  - get all
+  - find id role
+  - delete role
+3. storages :
+  - create
+  - get all
+  - find id storage
+  - delete storage
+4. posts :
+  - create
+  - get all
+  - find id post
+  - delete post
+5. addresses :
+  - create
+  - get all
+  - find id address
+  - delete address
+6. locations :
+  - create
+  - get all
+  - find id location
+  - delete location
+7. fee :
+  - create
+  - get all
+  - find id fee
+  - delete fee
+8. track :
+  - create
+  - get all
+  - find id track
+  - delete track
+9. transactions :
+  - create ( with validate only can create transactions on role admin and role post storage ) #still have bug in calculate fee
+  - get all
+  - find id transaction
+  - delete transaction
+10. packages :
+  - create
+  - get all
+  - find id package
+  - delete package
+
+Mobile
+1. Login user(penerima & pengirim) dan operator pos , operator storage
+2. Design menu operator storage
+3. Design menu operator pos
+4. Fetching data user
+
+What we haven't done :
+Frontend 
+1. Login jwt
+2. Chating
+3. Generate qr code
+4. Fetching data transactions in post operator menu
+5. Logout
+6. Crud in storage menu
+
+
+Backend
+1. create JWT token with databases
+2. search tracking with google maps api and updated status if tracking delivered
+3. bug in calculate fee transaction
+
+Mobile
+1. Scan Qr
+2. Fetching data traking
+3. Registrasi user
+4. Pncrian lokasi terdekat dengan map
+5.fetching data transaksi
+6. Input berat in operator pos
+7. Tampilan menu user
