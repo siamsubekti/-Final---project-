@@ -1,0 +1,37 @@
+{
+  "name": "react-native-google-places-x",
+  "description": "iOS/Android Google Places Widgets (Autocomplete, Place Picker) and API Services for React Native Apps",
+  "main": "index.js",
+  "author": "RoyalDeveloper2015 <yunaandvann@gmail.com>",
+  "version": "2.4.4",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/kingDeveloper_21th/react-native-google-places.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/kingDeveloper_21th/react-native-google-places/issues"
+  },
+  "homepage": "https://gitlab.com/kingDeveloper_21th/react-native-google-places/blob/master/README.md",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "map",
+    "places",
+    "google-places",
+    "Google Places API",
+    "autocomplete",
+    "ios",
+    "android"
+  ],
+  "peerDependencies": {
+    "react": ">=15.4.0 || ^16.0.0-alpha",
+    "react-native": ">=0.40.0"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "react-native-google-places": "^3.1.2"
+  }
+}
