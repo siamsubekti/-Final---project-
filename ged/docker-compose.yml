@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  Ged-Docker:
+    environment:
+      - CONTEXT-PATH=/semicolonsquad
+      - PORT=8080
+      - DRIVER=com.mysql.jdbc.Driver
+      - DB_URL=jdbc:mysql://165.22.241.39:3306/semicolonsquad?autoReconnect=true&useSSL=false
+      - DB_USER=semicolonsquad
+      - DB_PASS=P@ssw0rd
+    image: semicolonsquad/ged-be:1.0
+    build:
+      context: ./
+      dockerfile: dockerfile
+    ports: 
+      - "9009:8080"
+    restart: always
