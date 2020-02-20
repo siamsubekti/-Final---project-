@@ -1,0 +1,2 @@
+CREATE TABLE fee(id INT PRIMARY KEY AUTO_INCREMENT,
+                 value DECIMAL(255), location_destinations INT, locations_origin INT);

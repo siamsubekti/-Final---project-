@@ -1,0 +1,2 @@
+
+INSERT INTO fee(value, location_destinations, locations_origin) values (5000, 3, 4);
