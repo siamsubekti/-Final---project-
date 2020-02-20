@@ -1,0 +1,66 @@
+.card {
+    min-height: 400px;
+}
+
+
+.form-tracking {
+    margin-top: 50px;
+}
+
+.card-div {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 22px;
+    width: 100%;
+}
+
+.card-title {
+    float: left;
+    margin: inherit;
+    max-width: 200px;
+    background-color: #ff8b00;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+}
+
+.title-detail {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.detail {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.detail-card {
+    border: solid #ff8b00 1px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    background-color: lightyellow;
+}
+
+.td-distance {
+    width: 150px;
+}
+
+.text-detail {
+    margin-left: 30px;
+    float: left;
+}
+
+.wave {
+    position: absolute;
+    height: 70px;
+    width: 600px;
+    background: #e0efe3;
+}
+
+.list-details {
+    float: left;
+}
